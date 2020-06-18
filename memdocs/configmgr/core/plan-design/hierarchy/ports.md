@@ -393,6 +393,12 @@ A distribution point communicates to the management point in the following scena
 
 For more information, see [CMG Ports and data flow](../../clients/manage/cmg/plan-cloud-management-gateway.md#ports-and-data-flow).
 
+###  <a name="BKMK_PortsSCP-SQL"></a> Service connection point --> SQL Server  
+
+|Description|UDP|TCP|  
+|-----------------|---------|---------|  
+|SQL over TCP|--|1433 <sup>[Note 2](#bkmk_note2) Alternate port available</sup>|  
+
 ### <a name="BKMK_PortsAppCatalogWebServicePoint_SiteServer"></a> Site server &lt;--> Application Catalog web service point  
 
 |Description|UDP|TCP|  
@@ -745,6 +751,8 @@ The following site system roles communicate directly with the SQL Server databas
 - Site server  
 
 - Reporting Services point  
+
+- Service connection point  
 
 - SMS Provider  
 
